@@ -2,6 +2,7 @@
     <h1 align="center">俄乌战争展示网站 based on Yii2</h1>
     <br>
 </p>
+本项目实现了一个俄乌战争展示网站，具体的项目说明和相关报告请见/data/team文件夹
 
 DIRECTORY STRUCTURE
 -------------------
@@ -39,4 +40,8 @@ frontend
     widgets/             contains frontend widgets
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
+install/                 contains view files and controller for One-click deployment
+timeline_crawler.py      contains the crawler for the "timeline" page
+data/                    contains the sql file of the database
+    team/                contains the documents of the whole project
 ```
